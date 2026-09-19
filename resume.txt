@@ -1,13 +1,11 @@
-MAYA CHEN
-Product designer and creative developer
+ABDUL RAHMAN
+Cloud and deployment engineer
 
-hello@mayachen.design
-New York, NY
+AbdulrahmanCloud@gmail.com
+888-451-5458
 
-EXPERIENCE
-Independent / Product designer and creative developer / 2021 - now
-IDEO / Product designer / 2018 - 2021
-Dropbox / Design intern / 2016 - 2018
+PROFILE
+Cloud and deployment engineer focused on reliable application delivery, monitoring, troubleshooting, and production support.
 
 CAPABILITIES
-Product strategy, interaction design, visual systems, creative development, prototyping
+Cloud deployment, CI/CD, application monitoring, logging and alerting, incident troubleshooting, production support
