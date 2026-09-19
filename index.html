@@ -152,7 +152,19 @@
             <section id="contact" class="contact section-pad">
                 <div class="contact-inner reveal">
                     <p class="eyebrow">Have a system to steady?</p>
-                    <h2>Let's make production<br /><em>less surprising.</em></h2><a class="contact-email" href="mailto:AbdulrahmanCloud@gmail.com">AbdulrahmanCloud@gmail.com <span aria-hidden="true">↗</span></a><br /><a class="contact-email" href="tel:8884515458">888-451-5458 <span aria-hidden="true">↗</span></a></div>
+                    <h2>Let's make production<br /><em>less surprising.</em></h2><a class="contact-email" href="mailto:AbdulrahmanCloud@gmail.com">AbdulrahmanCloud@gmail.com <span aria-hidden="true">↗</span></a><br /><a class="contact-email" href="tel:8884515458">888-451-5458 <span aria-hidden="true">↗</span></a>
+                    <div class="suggestion-panel">
+                        <div class="suggestion-heading"><div><p class="eyebrow">Suggestion box</p><h3>What should I improve?</h3></div><span class="saved-label">Saved on this device</span></div>
+                        <form id="suggestion-form" class="suggestion-form">
+                            <label for="suggestion-name">Your name <span>(optional)</span></label>
+                            <input id="suggestion-name" name="name" type="text" maxlength="60" placeholder="Name or team" />
+                            <label for="suggestion-message">Suggestion</label>
+                            <textarea id="suggestion-message" name="message" maxlength="500" placeholder="Share an idea, correction, or project question..." required></textarea>
+                            <div class="suggestion-actions"><button class="button button-dark" type="submit">Save suggestion <span aria-hidden="true">↗</span></button><span id="suggestion-status" role="status" aria-live="polite"></span></div>
+                        </form>
+                        <div id="suggestion-list" class="suggestion-list" aria-live="polite"></div>
+                    </div>
+                </div>
             </section>
         </main>
 
