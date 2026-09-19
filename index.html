@@ -18,6 +18,7 @@
             <a class="brand" href="#top" aria-label="Abdul Rahman home">AR<span>.</span></a>
             <nav class="site-nav" aria-label="Primary navigation">
                 <a href="#services">Services</a>
+                <a href="#scenarios">Scenarios</a>
                 <a href="#work">Work</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -51,6 +52,15 @@
             <section class="signal-strip section-pad reveal" aria-label="Engineering focus">
                 <div class="signal-intro"><p class="eyebrow">The operating brief</p><h2>Make releases<br />feel <em>routine.</em></h2></div>
                 <div class="signal-copy"><p>Good infrastructure gives product teams room to think. I bring the systems, visibility, and steady support needed to release confidently without losing sight of the people who depend on the application.</p><div class="signal-stats"><div><strong>01</strong><span>clear ownership</span></div><div><strong>02</strong><span>useful visibility</span></div><div><strong>03</strong><span>calm response</span></div></div></div>
+            </section>
+
+            <section id="scenarios" class="scenarios section-pad">
+                <div class="section-heading reveal"><p class="eyebrow">Live operating scenarios</p><p class="section-note">Where deployment, monitoring, and support meet.</p></div>
+                <div class="scenario-grid">
+                    <article class="scenario-card scenario-feature reveal"><div class="scenario-card-top"><span class="scenario-index">01 / RELEASE</span><span class="scenario-state"><i></i> stable</span></div><h2>From pull request<br />to production.</h2><p>A guarded release path with automated validation, environment separation, approvals, and a fast rollback route when a change does not behave as expected.</p><div class="scenario-flow"><span>commit</span><b>→</b><span>build</span><b>→</b><span>verify</span><b>→</b><span>release</span></div></article>
+                    <article class="scenario-card reveal"><div class="scenario-card-top"><span class="scenario-index">02 / OBSERVE</span><span class="scenario-state"><i></i> live</span></div><h2>Know before<br />users call.</h2><p>Application health is more than a green server. I connect service metrics, logs, traces, and user-facing signals into an operating picture the team can trust.</p><div class="mini-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><small>request health / last 60 minutes</small></article>
+                    <article class="scenario-card reveal"><div class="scenario-card-top"><span class="scenario-index">03 / RESPOND</span><span class="scenario-state scenario-warm"><i></i> ready</span></div><h2>Turn incidents<br />into learning.</h2><p>Clear severity, ownership, communication, and recovery steps keep an incident focused. A short review turns the outcome into a stronger system.</p><div class="scenario-metrics"><div><b>04m</b><small>first signal</small></div><div><b>18m</b><small>time to restore</small></div></div></article>
+                </div>
             </section>
 
             <section id="work" class="work section-pad">
@@ -99,6 +109,11 @@
                 </div>
             </section>
 
+            <section id="stack" class="stack section-pad">
+                <div class="stack-intro reveal"><p class="eyebrow">Platform perspective</p><h2>Tools are useful.<br /><em>Systems are better.</em></h2><p>I choose the right level of automation for the service, the team, and the risk. The goal is an understandable operating model, not a pile of tools.</p></div>
+                <div class="stack-grid reveal"><div><span>01</span><h3>Cloud</h3><p>Compute / networking / identity / storage</p><b>Azure · AWS · Linux</b></div><div><span>02</span><h3>Delivery</h3><p>Source / build / test / release</p><b>GitHub Actions · CI/CD · Git</b></div><div><span>03</span><h3>Observability</h3><p>Metrics / logs / traces / alerts</p><b>Application Insights · Grafana</b></div><div><span>04</span><h3>Operations</h3><p>Runbooks / incidents / recovery</p><b>Support · SRE habits · Documentation</b></div></div>
+            </section>
+
             <section id="about" class="about section-pad">
                 <div class="section-heading reveal">
                     <p class="eyebrow">A little about me</p>
@@ -127,6 +142,11 @@
                     <div class="process-step reveal"><span>02</span><div><h2>Make delivery repeatable</h2><p>Reduce manual work with clear environments, automated checks, and a release path the team can trust.</p></div><b>↗</b></div>
                     <div class="process-step reveal"><span>03</span><div><h2>Make health visible</h2><p>Choose signals that explain what is happening, then connect them to response habits that improve over time.</p></div><b>↗</b></div>
                 </div>
+            </section>
+
+            <section class="runbook section-pad">
+                <div class="section-heading reveal"><p class="eyebrow">Incident response playbook</p><p class="section-note">A calm sequence for high-pressure moments.</p></div>
+                <div class="runbook-layout"><div class="runbook-status reveal"><div class="status-head"><span><i></i> incident channel</span><b>SEV-2</b></div><h2>Checkout latency<br /><em>elevated.</em></h2><p>Started 10:42 UTC / customer impact confirmed / response active</p><div class="status-bar"><span></span></div><small>communication cadence: every 15 minutes</small></div><div class="timeline reveal"><div><span>10:42</span><p><b>Detect</b> Alert fires on p95 latency threshold.</p></div><div><span>10:46</span><p><b>Diagnose</b> Compare deploy, traces, and dependency health.</p></div><div><span>10:53</span><p><b>Recover</b> Roll back release and verify the error budget.</p></div><div><span>11:18</span><p><b>Learn</b> Capture cause, owner, and prevention action.</p></div></div></div>
             </section>
 
             <section id="contact" class="contact section-pad">
