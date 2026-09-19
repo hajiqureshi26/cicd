@@ -16,19 +16,23 @@ concurrency:
 
 jobs:
   deploy:
+    name: Publish static portfolio
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload site
+      - name: Package static site
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - name: Deploy to GitHub Pages
+      - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -17,6 +17,7 @@
         <header class="site-header">
             <a class="brand" href="#top" aria-label="Abdul Rahman home">AR<span>.</span></a>
             <nav class="site-nav" aria-label="Primary navigation">
+                <a href="#services">Services</a>
                 <a href="#work">Work</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -28,24 +29,28 @@
             <section class="hero section-pad">
                 <div class="hero-copy reveal">
                     <p class="eyebrow">Cloud & deployment engineer <span>Application delivery / operations</span></p>
-                    <h1>I keep applications <em>moving.</em></h1>
-                    <p class="hero-summary">I deploy, monitor, and support reliable applications so teams can ship with confidence.</p>
+                    <h1>Reliable delivery for <em>real-world</em> systems.</h1>
+                    <p class="hero-summary">I design deployment workflows, observability, and support practices that keep applications healthy from first release to steady state.</p>
                     <div class="hero-actions">
-                        <a class="button button-dark" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+                        <a class="button button-dark" href="#services">Explore capabilities <span aria-hidden="true">↓</span></a>
                         <a class="text-link" href="./resume.txt" download>Download resume <span aria-hidden="true">↗</span></a>
                     </div>
                 </div>
-                <div class="hero-art reveal" aria-label="Abstract portrait artwork" role="img">
-                    <div class="art-orbit orbit-one"></div>
-                    <div class="art-orbit orbit-two"></div>
-                    <div class="art-sun"></div>
-                    <div class="art-caption">Ideas in<br />motion</div>
-                    <div class="art-index">01 <span>/</span> 04</div>
+                <div class="ops-console reveal" aria-label="Deployment status dashboard" role="img">
+                    <div class="console-top"><span class="console-dot"></span><span>abdulrahman / production</span><span class="console-status">● all systems operational</span></div>
+                    <div class="console-main"><p class="console-kicker">Latest deployment</p><h2>release <span>v2.4.1</span></h2><p class="console-muted">Payment service / main / 8 minutes ago</p><div class="console-progress"><span></span></div><div class="console-meta"><span>Deployment complete</span><b>100%</b></div></div>
+                    <div class="console-grid"><div><span>Availability</span><strong>99.98%</strong><i>+0.12%</i></div><div><span>Response time</span><strong>184ms</strong><i>−18ms</i></div><div><span>Open incidents</span><strong>00</strong><i class="neutral">last 30 days</i></div></div>
+                    <div class="console-footer"><span>● monitoring active</span><span>uptime / 30 days</span></div>
                 </div>
             </section>
 
             <section class="marquee" aria-label="Capabilities">
-                <div class="marquee-track"><span>Cloud deployment</span><i>✳</i><span>Application monitoring</span><i>✳</i><span>Production support</span><i>✳</i><span>Cloud deployment</span><i>✳</i><span>Application monitoring</span><i>✳</i></div>
+                <div class="marquee-track"><span>Cloud deployment</span><i>✳</i><span>Application monitoring</span><i>✳</i><span>Production support</span><i>✳</i><span>Incident response</span><i>✳</i><span>Cloud deployment</span><i>✳</i><span>Application monitoring</span><i>✳</i></div>
+            </section>
+
+            <section class="signal-strip section-pad reveal" aria-label="Engineering focus">
+                <div class="signal-intro"><p class="eyebrow">The operating brief</p><h2>Make releases<br />feel <em>routine.</em></h2></div>
+                <div class="signal-copy"><p>Good infrastructure gives product teams room to think. I bring the systems, visibility, and steady support needed to release confidently without losing sight of the people who depend on the application.</p><div class="signal-stats"><div><strong>01</strong><span>clear ownership</span></div><div><strong>02</strong><span>useful visibility</span></div><div><strong>03</strong><span>calm response</span></div></div></div>
             </section>
 
             <section id="work" class="work section-pad">
@@ -85,6 +90,15 @@
                 </div>
             </section>
 
+            <section id="services" class="services section-pad">
+                <div class="section-heading reveal"><p class="eyebrow">Core capabilities</p><p class="section-note">The practical layers behind resilient delivery.</p></div>
+                <div class="service-grid">
+                    <article class="service-card reveal"><span class="service-number">01</span><h2>Deploy</h2><p>Build repeatable CI/CD pipelines, release workflows, and environment practices that make shipping predictable.</p><ul><li>Pipeline design</li><li>Release automation</li><li>Environment setup</li></ul></article>
+                    <article class="service-card reveal"><span class="service-number">02</span><h2>Observe</h2><p>Turn application behavior into useful signals with monitoring, logging, dashboards, and alerts that people can act on.</p><ul><li>Health dashboards</li><li>Alert design</li><li>Logs and metrics</li></ul></article>
+                    <article class="service-card reveal"><span class="service-number">03</span><h2>Support</h2><p>Keep production calm with practical incident response, root-cause analysis, and improvements that prevent repeat issues.</p><ul><li>Incident response</li><li>Root-cause analysis</li><li>Runbooks</li></ul></article>
+                </div>
+            </section>
+
             <section id="about" class="about section-pad">
                 <div class="section-heading reveal">
                     <p class="eyebrow">A little about me</p>
@@ -106,10 +120,19 @@
                 </div>
             </section>
 
+            <section class="process section-pad">
+                <div class="section-heading reveal"><p class="eyebrow">How I work</p><p class="section-note">A clear path from unknowns to dependable operations.</p></div>
+                <div class="process-list">
+                    <div class="process-step reveal"><span>01</span><div><h2>Understand the service</h2><p>Map the application, its dependencies, its users, and the moments where reliability matters most.</p></div><b>↗</b></div>
+                    <div class="process-step reveal"><span>02</span><div><h2>Make delivery repeatable</h2><p>Reduce manual work with clear environments, automated checks, and a release path the team can trust.</p></div><b>↗</b></div>
+                    <div class="process-step reveal"><span>03</span><div><h2>Make health visible</h2><p>Choose signals that explain what is happening, then connect them to response habits that improve over time.</p></div><b>↗</b></div>
+                </div>
+            </section>
+
             <section id="contact" class="contact section-pad">
                 <div class="contact-inner reveal">
-                    <p class="eyebrow">Have a good one?</p>
-                    <h2>Let's keep your<br /><em>systems moving.</em></h2><a class="contact-email" href="mailto:AbdulrahmanCloud@gmail.com">AbdulrahmanCloud@gmail.com <span aria-hidden="true">↗</span></a><br /><a class="contact-email" href="tel:8884515458">888-451-5458 <span aria-hidden="true">↗</span></a></div>
+                    <p class="eyebrow">Have a system to steady?</p>
+                    <h2>Let's make production<br /><em>less surprising.</em></h2><a class="contact-email" href="mailto:AbdulrahmanCloud@gmail.com">AbdulrahmanCloud@gmail.com <span aria-hidden="true">↗</span></a><br /><a class="contact-email" href="tel:8884515458">888-451-5458 <span aria-hidden="true">↗</span></a></div>
             </section>
         </main>
 
